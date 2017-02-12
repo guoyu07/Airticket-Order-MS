@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <BindingProperties>
+    <BindingProperty name="title" source="Form" sourcePath="&#x7528;&#x6237;&#x6ce8;&#x518c;" target="Form" targetPath="title" updateStrategy="0" immediately="false"/>
+  </BindingProperties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="textArea1" alignment="1" pref="400" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+              <Component id="button1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="106" max="32767" attributes="0"/>
+              <Component id="button2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="textArea1" min="-2" pref="252" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="button1" min="-2" max="-2" attributes="0"/>
+                  <Component id="button2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="33" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.TextArea" name="textArea1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x4e00;&#x3001;&#x9075;&#x5b88;&#x4e2d;&#x534e;&#x4eba;&#x6c11;&#x5171;&#x548c;&#x56fd;&#x6709;&#x5173;&#x6cd5;&#x5f8b;&#x3001;&#x6cd5;&#x89c4;&#xff0c;&#x627f;&#x62c5;&#x4e00;&#x5207;&#x56e0;&#x60a8;&#x7684;&#x884c;&#x4e3a;&#x800c;&#x76f4;&#x63a5;&#x6216;&#x95f4;&#x63a5;&#x5f15;&#x8d77;&#x7684;&#x6cd5;&#x5f8b;&#x8d23;&#x4efb;&#x3002;&#xa;&#xa;&#x4e8c;&#x3001;&#x5728;&#x672c;&#x7ad9;&#x53d1;&#x8868;&#x8a00;&#x8bba;&#x8bf7;&#x6ce8;&#x610f;&#x4ee5;&#x4e0b;&#x51e0;&#x6761;&#x89c4;&#x5b9a;&#xff0c;&#x82e5;&#x6709;&#x8fdd;&#x53cd;&#xff0c;&#x672c;&#x575b;&#x6709;&#x6743;&#x5220;&#x9664;&#x3002;&#xa;1 &#x3001;&#x53cd;&#x5bf9;&#x56fd;&#x5bb6;&#x5baa;&#x6cd5;&#x6240;&#x786e;&#x5b9a;&#x7684;&#x57fa;&#x672c;&#x539f;&#x5219;&#x7684;&#xff1b;&#xa;2 &#x3001;&#x5371;&#x5bb3;&#x56fd;&#x5bb6;&#x5b89;&#x5168;&#xff0c;&#x6cc4;&#x9732;&#x56fd;&#x5bb6;&#x79d8;&#x5bc6;&#xff0c;&#x98a0;&#x8986;&#x56fd;&#x5bb6;&#x653f;&#x6743;&#xff0c;&#x7834;&#x574f;&#x56fd;&#x5bb6;&#x7edf;&#x4e00;&#x7684;&#xff1b;&#xa;3 &#x3001;&#x635f;&#x5bb3;&#x56fd;&#x5bb6;&#x8363;&#x8a89;&#x548c;&#x5229;&#x76ca;&#x7684;&#xff1b;&#xa;4 &#x3001;&#x717d;&#x52a8;&#x6c11;&#x65cf;&#x4ec7;&#x6068;&#x3001;&#x6c11;&#x65cf;&#x6b67;&#x89c6;&#xff0c;&#x7834;&#x574f;&#x6c11;&#x65cf;&#x56e2;&#x7ed3;&#x7684;&#xff1b;&#xa;5 &#x3001;&#x7834;&#x574f;&#x56fd;&#x5bb6;&#x5b97;&#x6559;&#x653f;&#x7b56;&#xff0c;&#x5ba3;&#x626c;&#x90aa;&#x6559;&#x548c;&#x5c01;&#x5efa;&#x8ff7;&#x4fe1;&#x7684;&#xff1b;&#xa;6 &#x3001;&#x6563;&#x5e03;&#x8c23;&#x8a00;&#xff0c;&#x6270;&#x4e71;&#x793e;&#x4f1a;&#x79e9;&#x5e8f;&#xff0c;&#x7834;&#x574f;&#x793e;&#x4f1a;&#x7a33;&#x5b9a;&#x7684;&#xff1b;&#xa;7 &#x3001;&#x6563;&#x5e03;&#x6deb;&#x79fd;&#x3001;&#x8272;&#x60c5;&#x3001;&#x8d4c;&#x535a;&#x3001;&#x66b4;&#x529b;&#x3001;&#x51f6;&#x6740;&#x3001;&#x6050;&#x6016;&#x6216;&#x8005;&#x6559;&#x5506;&#x72af;&#x7f6a;&#x7684;&#xff1b;&#xa;8 &#x3001;&#x4fae;&#x8fb1;&#x6216;&#x8005;&#x8bfd;&#x8c24;&#x4ed6;&#x4eba;&#xff0c;&#x4fb5;&#x5bb3;&#x4ed6;&#x4eba;&#x5408;&#x6cd5;&#x6743;&#x76ca;&#x7684;&#xff1b;&#xa;9 &#x3001;&#x542b;&#x6709;&#x6cd5;&#x5f8b;&#x3001;&#x884c;&#x653f;&#x6cd5;&#x89c4;&#x7981;&#x6b62;&#x7684;&#x5176;&#x4ed6;&#x5185;&#x5bb9;&#x7684;&#xff1b;&#xa;10&#x3001;&#x8bf7;&#x52ff;&#x5f20;&#x8d34;&#x672a;&#x7ecf;&#x516c;&#x5f00;&#x62a5;&#x9053;&#x3001;&#x672a;&#x7ecf;&#x8bc1;&#x5b9e;&#x7684;&#x6d88;&#x606f;&#xff1b;&#x4eb2;&#x8eab;&#x7ecf;&#x5386;&#x8005;&#x8bf7;&#x6ce8;&#x660e;&#xff1b;&#xa;11&#x3001;&#x8bf7;&#x52ff;&#x5f20;&#x8d34;&#x5ba3;&#x626c;&#x79cd;&#x65cf;&#x6b67;&#x89c6;&#x3001;&#x7834;&#x574f;&#x6c11;&#x65cf;&#x56e2;&#x7ed3;&#x7684;&#x8a00;&#x8bba;&#x548c;&#x6d88;&#x606f;&#xff1b;&#xa;12&#x3001;&#x8bf7;&#x6ce8;&#x610f;&#x4f7f;&#x7528;&#x6587;&#x660e;&#x7528;&#x8bed;&#xff0c;&#x4efb;&#x4f55;&#x4eba;&#x4e0d;&#x5f97;&#x4ee5;&#x4efb;&#x4f55;&#x539f;&#x56e0;&#x5bf9;&#x4efb;&#x4f55;&#x4e00;&#x4f4d;&#x7f51;&#x53cb;&#x8fdb;&#x884c;&#x4eba;&#x8eab;&#x653b;&#x51fb;&#x3001;&#x8c29;&#x9a82;&#x3001;&#x8bcb;&#x6bc1;&#x7684;&#x8a00;&#x8bba;&#xff1b;&#xa;13&#x3001;&#x672a;&#x7ecf;&#x672c;&#x7ad9;&#x540c;&#x610f;&#xff0c;&#x8bf7;&#x52ff;&#x5f20;&#x8d34;&#x4efb;&#x4f55;&#x5f62;&#x5f0f;&#x7684;&#x5e7f;&#x544a;&#xff1b;&#xa;15&#x3001;&#x8bf7;&#x52ff;&#x5728;&#x5e16;&#x5b50;&#x4e2d;&#xff08;&#x6807;&#x9898;&#x548c;&#x5185;&#x5bb9;&#xff09;&#x52a0;&#x5165;&#x5404;&#x79cd;&#x5947;&#x5f62;&#x602a;&#x72b6;&#x7684;&#x7b26;&#x53f7;&#xff1b;&#xa;&#xa;&#xa;&#x4e09;&#x3001;ID&#x6ce8;&#x518c;&#x548c;&#x4f7f;&#x7528;&#x6635;&#x79f0;&#x6ce8;&#x610f;&#x4e8b;&#x9879;&#xff1a;&#xa;1&#x3001;&#x8bf7;&#x52ff;&#x4ee5;&#x515a;&#x548c;&#x56fd;&#x5bb6;&#x9886;&#x5bfc;&#x4eba;&#x6216;&#x5176;&#x4ed6;&#x540d;&#x4eba;&#x7684;&#x771f;&#x5b9e;&#x59d3;&#x540d;&#x3001;&#x5b57;&#x3001;&#x53f7;&#x3001;&#x827a;&#x540d;&#x3001;&#x7b14;&#x540d;&#x6ce8;&#x518c;&#x548c;&#x4f7f;&#x7528;&#x6635;&#x79f0;&#xff1b;&#xa;2&#x3001;&#x8bf7;&#x52ff;&#x4ee5;&#x56fd;&#x5bb6;&#x7ec4;&#x7ec7;&#x673a;&#x6784;&#x6216;&#x5176;&#x4ed6;&#x7ec4;&#x7ec7;&#x673a;&#x6784;&#x7684;&#x540d;&#x79f0;&#x6ce8;&#x518c;&#x548c;&#x4f7f;&#x7528;&#x6635;&#x79f0;&#xff1b;&#xa;3&#x3001;&#x8bf7;&#x52ff;&#x6ce8;&#x518c;&#x548c;&#x4f7f;&#x7528;&#x4e0e;&#x5176;&#x4ed6;&#x7f51;&#x53cb;&#x76f8;&#x540c;&#x3001;&#x76f8;&#x4eff;&#x7684;&#x540d;&#x5b57;&#x6216;&#x6635;&#x79f0;&#xff1b;&#xa;4&#x3001;&#x8bf7;&#x52ff;&#x6ce8;&#x518c;&#x548c;&#x4f7f;&#x7528;&#x4e0d;&#x6587;&#x660e;&#x3001;&#x4e0d;&#x5065;&#x5eb7;&#x7684;ID&#x548c;&#x6635;&#x79f0;&#xff1b;&#xa;5&#x3001;&#x8bf7;&#x52ff;&#x6ce8;&#x518c;&#x548c;&#x4f7f;&#x7528;&#x6613;&#x4ea7;&#x751f;&#x6b67;&#x4e49;&#x3001;&#x5f15;&#x8d77;&#x4ed6;&#x4eba;&#x8bef;&#x89e3;&#x7684;ID&#x548c;&#x6635;&#x79f0;&#x3002;&#xa;&#xa;&#xa;&#x56db;&#x3001;&#x7b7e;&#x540d;&#x6863;&#x586b;&#x5199;&#x6ce8;&#x610f;&#x4e8b;&#x9879;&#xff1a;&#xa;1&#x3001;&#x7b7e;&#x540d;&#x6863;&#x5185;&#x5bb9;&#x89c4;&#x5b9a;&#x4e0e;&#x4e0a;&#x8d34;&#x89c4;&#x5b9a;&#x4e00;&#x81f4;&#xff0c;&#x8981;&#x79ef;&#x6781;&#x5065;&#x5eb7;&#xff1b;&#xa;2&#x3001;&#x7b7e;&#x540d;&#x6863;&#x4e2d;&#x4e0d;&#x80fd;&#x8d85;&#x94fe;&#x63a5;&#x5176;&#x4ed6;&#x7f51;&#x7ad9;&#x3001;&#x6587;&#x7ae0;&#x548c;&#x97f3;&#x4e50;&#xff1b;&#xa;3&#x3001;&#x4e3a;&#x65b9;&#x4fbf;&#x9605;&#x8bfb;&#xff0c;&#x8bf7;&#x5c3d;&#x91cf;&#x4f7f;&#x7b7e;&#x540d;&#x6863;&#x4e0d;&#x8d85;&#x8fc7;4&#x884c;&#xa;&#xa;&#xa;&#x4e94;&#x3001;&#x8bf7;&#x6ce8;&#x610f;&#x7248;&#x6743;&#x95ee;&#x9898;&#xff1a;&#xa;1&#x3001;&#x51e1;&#x8f6c;&#x8d34;&#x6587;&#x7ae0;&#xff0c;&#x8bf7;&#x6ce8;&#x660e;&#x539f;&#x59cb;&#x51fa;&#x5904;&#x548c;&#x65f6;&#x95f4;&#xff0c;&#x5426;&#x5219;&#x672c;&#x7ad9;&#x6709;&#x6743;&#x5220;&#x9664;&#xff1b;&#xa;2&#x3001;&#x8f6c;&#x8d34;&#x6587;&#x7ae0;&#x65f6;&#x8bf7;&#x6ce8;&#x610f;&#x539f;&#x53d1;&#x8868;&#x5355;&#x4f4d;&#x7684;&#x7248;&#x6743;&#x58f0;&#x660e;&#xff0c;&#x5e76;&#x8d1f;&#x62c5;&#x7531;&#x6b64;&#x53ef;&#x80fd;&#x4ea7;&#x751f;&#x7684;&#x7248;&#x6743;&#x8d23;&#x4efb;&#x3002;&#xa;3&#x3001;&#x60a8;&#x5728;&#x672c;&#x7ad9;&#x4e0a;&#x53d1;&#x8868;&#x7684;&#x6587;&#x5b57;&#xff0c;&#x672c;&#x7ad9;&#x6709;&#x6743;&#x8f6c;&#x8f7d;&#x6216;&#x5f15;&#x7528;&#xff1b;&#xa;4&#x3001;&#x60a8;&#x6ce8;&#x518c;&#x4e86;&#x4e2d;&#x8bc1;&#x7f51;&#x901a;&#x884c;&#x8bc1;&#xff0c;&#x5373;&#x8868;&#x660e;&#x60a8;&#x5df2;&#x9605;&#x8bfb;&#x5e76;&#x63a5;&#x53d7;&#x4e86;&#x4e0a;&#x8ff0;&#x5404;&#x9879;&#x6761;&#x6b3e;&#xff1b;&#xa;5&#x3001;&#x672c;&#x7ad9;&#x62e5;&#x6709;&#x7ba1;&#x7406;&#x9875;&#x9762;&#x548c;ID&#x53ca;&#x6635;&#x79f0;&#x7684;&#x4e00;&#x5207;&#x6743;&#x529b;&#xff0c;&#x8bf7;&#x7f51;&#x53cb;&#x670d;&#x4ece;&#x672c;&#x7ad9;&#x7ba1;&#x7406;&#xff0c;&#x5982;&#x5bf9;&#x7ba1;&#x7406;&#x6709;&#x610f;&#x89c1;&#x8bf7;&#x7528;&#x53d1;&#x90ae;&#x4ef6;&#x5411;&#x8bba;&#x575b;&#x7ba1;&#x7406;&#x5458;&#xff08;bbsmaster@zzb.com.cn&#xff09;&#x53cd;&#x6620;&#x3002;&#xa;"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="button1">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="&#x540c;&#x610f;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="button2">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="&#x4e0d;&#x540c;&#x610f;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button2ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
